@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_secondary60"
+    android:background="#849091"
     tools:context=".MenuDescripcion">
 
     <androidx.constraintlayout.widget.Guideline
@@ -29,7 +29,7 @@
         app:layout_constraintGuide_percent="0.6" />
 
     <EditText
-        android:id="@+id/idDescripcion"
+        android:id="@+id/idMenuDescripcion"
         android:layout_width="match_parent"
         android:layout_height="79sp"
         android:background="#4C7D83"
@@ -50,7 +50,7 @@
 
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnlinkedin"
         android:layout_width="161dp"
         android:layout_height="59dp"
         android:layout_marginStart="29dp"
@@ -103,8 +103,8 @@
         android:layout_width="212dp"
         android:layout_height="86dp"
         android:ems="10"
+        android:hint="New Message"
         android:inputType="text"
-        android:text="New Message"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
