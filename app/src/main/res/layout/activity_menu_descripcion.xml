@@ -28,7 +28,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.6" />
 
-    <EditText
+    <TextView
         android:id="@+id/idMenuDescripcion"
         android:layout_width="match_parent"
         android:layout_height="79sp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline6" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnContactame"
         android:layout_width="192dp"
         android:layout_height="65dp"
         android:layout_marginTop="40dp"
@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMail"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
@@ -87,7 +87,7 @@
         app:srcCompat="@mipmap/linkdin_foreground" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imgWhatsapp"
         android:layout_width="103dp"
         android:layout_height="100dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
@@ -99,7 +99,7 @@
         app:srcCompat="@mipmap/whatsapp" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/editTextMail"
         android:layout_width="212dp"
         android:layout_height="86dp"
         android:ems="10"
@@ -114,14 +114,14 @@
         app:layout_constraintVertical_bias="0.218" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnWhatsapp"
         android:layout_width="161dp"
         android:layout_height="63dp"
         android:text="LLAMAR"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.641"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/imgWhatsapp"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
         app:layout_constraintVertical_bias="0.493" />
 
